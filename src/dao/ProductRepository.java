@@ -40,5 +40,28 @@ public class ProductRepository {
 		return listOfProducts;
 		
 	}
+	
+	// Id 값에 해당하는 Product 객체를 반환.
+	public Product getProductById(String productId) {
+		
+		Product productById = null;
+		
+		for (int i = 0; i < listOfProducts.size(); i++) { // 리스트에서 product를 검색.
+			
+			Product product = listOfProducts.get(i); // 하나씩.
+			
+			// id 값과 일치하는 product를 찾으면
+			if(product != null && product.getProductId() != null && product.getProductId().equals(productId)) {
+				
+				productById = product; // 프로덕트를 대입.
+				break;
+				
+			}
+			
+		}
+		
+		return productById;
+		
+	}
 
 }
