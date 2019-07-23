@@ -35,6 +35,8 @@
 		
 			<h3> <%= tagline %> </h3>
 			<%
+			
+				response.setIntHeader("Refresh", 5); // 5초마다 화면을 갱신.
 				
 				Date day = new java.util.Date(); // 현재 날짜와 시간을 얻어온다.
 				String am_pm; // am과 pm
