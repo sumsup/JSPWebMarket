@@ -5,16 +5,16 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title></title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-</head>
-<body>
 	<%
 	
 		String id = request.getParameter("id");
 		Product product = productDAO.getProductById(id);
 	
 	%>
+<title><%= product.getPname() %></title>
+</head>
+<body>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
