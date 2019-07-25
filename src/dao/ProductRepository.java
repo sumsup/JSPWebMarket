@@ -8,6 +8,21 @@ public class ProductRepository {
 	
 	private ArrayList<Product> listOfProducts = new ArrayList<Product>();
 	
+	private static ProductRepository instance = new ProductRepository();
+	// 싱글턴으로 이용하기 위해 static으로 변수를 선언함.
+	
+	// form Object를 이용해서 새로운 제품을 제품 배열인 listOfProducts에 추가.
+	public void addProduct(Product product) {
+		
+		listOfProducts.add(product);
+	}
+	
+	// 제품 인스턴스를 반환.
+	public static ProductRepository getInstance() {
+		return instance;
+	}
+	
+	// 제품 정보를 등록.
 	public ProductRepository() {
 		
 		Product phone = new Product("P1234", "iPhone 6s", 800000);
