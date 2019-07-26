@@ -17,7 +17,7 @@ public class ProductRepository {
 		listOfProducts.add(product);
 	}
 	
-	// 제품 인스턴스를 반환.
+	// 제품 인스턴스를 반환. static으로 싱글턴.
 	public static ProductRepository getInstance() {
 		return instance;
 	}
