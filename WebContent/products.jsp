@@ -11,7 +11,8 @@
 <head>
 <meta charset="UTF-8">
 <title>상품 목록</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+<link rel='stylesheet' href='resources/css/bootstrap.min.css' />
 </head>
 <body>
 	
@@ -41,6 +42,10 @@
 			%>
 			
 			<div class="col-md-4">
+				<img src='resources/images/<%=product.getFilename()%>' style='width: 100%'>
+				<%-- <img src='c:/upload/<%=product.getFilename() %>' style='width: 100%'> --%>
+				<!-- 크롬에서는 로컬 파일에 접근 불가함. -->
+				
 				<h3><%= product.getPname() %></h3>
 				<p><%= product.getDescription() %>
 				<p><%= product.getUnitPrice() %> 원

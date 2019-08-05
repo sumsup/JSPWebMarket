@@ -1,3 +1,6 @@
+<%@page import="java.util.Enumeration"%>
+<%@page import="com.oreilly.servlet.multipart.DefaultFileRenamePolicy"%>
+<%@page import="com.oreilly.servlet.MultipartRequest"%>
 <%@page import="dto.Product"%>
 <%@page import="dao.ProductRepository"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
@@ -7,6 +10,13 @@
 	// 코드로 JSP를 만들었다.
 
 	request.setCharacterEncoding("UTF-8");
+
+	String filename = "";
+	String realFolder = "D:\\dev\\workspace\\JSPWebMarket\\WebContent\\resources\\images"; // 웹 어플리케이션 상의 절대 경로.
+	int maxSize = 5 * 1024 * 1024; // 업로드될 최대 파일의 크기 5MB.
+	String encType = "utf-8"; // 인코딩 유형.
+	
+	MultipartRequest multi = new MultipartRequest(request, realFolder, maxSize, encType, new DefaultFileRenamePolicy());
 	
 	String productId = request.getParameter("productId");
 	String name = request.getParameter("name");
@@ -41,6 +51,17 @@
 		
 	}
 	
+	Enumeration files = multi.getFileNames(); // request에서 전달받은 파일 이름들을 불러와서 Enumeration 객체에 넣는다.
+	
+	String fname = (String) files.nextElement();
+	// fname 이랑 FilesystemName 적용한거랑 로그 찍어볼 것.
+	// FileSystemName이 뭔지 모르겠다.
+	
+	String fileName = multi.getFilesystemName(fname);
+	// getFilesystemName() : 
+	// Returns the filesystem name of the specified file, or null if the file was not included in the upload.
+	// filesystem name 이란 무엇인가? : 
+	
 	ProductRepository dao = ProductRepository.getInstance(); 
 	// 싱글턴 인스턴스 생성 방식.
 	// ProductRepository 클래스로 가보면. 필드에 instance 라는 이름의 static 변수가 있을 꺼다.
@@ -58,6 +79,7 @@
 	newProduct.setCategory(category);
 	newProduct.setUnitsInStock(stock);
 	newProduct.setCondition(condition);
+	newProduct.setFilename(fileName);
 	
 	dao.addProduct(newProduct);
 	
