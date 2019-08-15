@@ -75,6 +75,9 @@
 	String fname = (String) files.nextElement();
 	// fname 이랑 FilesystemName 적용한거랑 로그 찍어볼 것.
 	// FileSystemName이 뭔지 모르겠다.
+	// 아! 알았다! originalFileName은 파일의 원래 이름이고
+	// FileSystemName은 저장된 파일 이름을 뜻하는 것.
+	// 받은 파일 이름을 변환해서 저장하면 저장된 파일이름을 가져올 때 사용.
 	
 	String fileName = multi.getFilesystemName(fname);
 	// getFilesystemName() : 
