@@ -13,7 +13,8 @@
 	request.setCharacterEncoding("UTF-8");
 
 	String filename = "";
-	String realFolder = "D:\\dev\\workspace\\JSPWebMarket\\WebContent\\resources\\images"; // 웹 어플리케이션 상의 절대 경로.
+	String realFolder = "D:\\dev\\JSPWebMarket\\WebContent\\resources\\images"; // 웹 어플리케이션 상의 절대 경로.
+//	String realFolder = "C:\\upload";
 	int maxSize = 5 * 1024 * 1024; // 업로드될 최대. 파일의 크기 5MB.
 	String encType = "utf-8"; // 인코딩 유형.
 	
@@ -105,6 +106,6 @@
 	
 	dao.addProduct(newProduct);
 	
-	response.sendRedirect("pages/products.jsp");
+	response.sendRedirect("products.jsp");
 	
 %>

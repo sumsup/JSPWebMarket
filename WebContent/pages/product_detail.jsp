@@ -9,8 +9,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
 
-<link rel="stylesheet" href="../resources/css/bootstrap.min.css">
-
+	<%@ include file="menu.jsp" %>
 	<%
 
 		String id = request.getParameter("id");
@@ -24,8 +23,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-5">
-				<img src="resources/images/<%=product.getFilename() %>" style="width: 100%" />
-				<%-- <img src="c:/upload/<%= product.getFilename() %>" style="width: 100%" /> --%>
+				<img src="../resources/images/<%=product.getFilename() %>" style="width: 100%" />
+<%--				<img src="c:/upload/<%= product.getFilename() %>" style="width: 100%" />--%>
 
 			</div>
 			<div class="col-md-6">
