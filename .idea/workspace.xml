@@ -2,21 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbd09083-f0d6-490a-9b02-54913669db89" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/pages/addProduct.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/pages/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/pages/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/processAddProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/pages/processAddProduct.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/product_detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/pages/product_detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/pages/products.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/scripting.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/pages/scripting.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/pages/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/pages/addCart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/pages/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/pages/checkOutCancelled.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/pages/deleteCart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/pages/exceptionNoPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/pages/exceptionNoProductId.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/pages/orderConfirmation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/pages/processShippingInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/pages/removeCart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/pages/shippingInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/pages/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/pages/thankCustomer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/LogFileFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/LogFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JSPWebMarket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JSPWebMarket.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/el_api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/el_api.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/pages/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/pages/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/pages/product_detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/pages/product_detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dto/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/Product.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="HTML File" />
+        <option value="Jsp file" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,23 +65,33 @@
     </option>
   </component>
   <component name="ProjectId" id="1WZ13zOuIfkT9TgpgEAzU1ER913" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\dev\JSPWebMarket\WebContent\WEB-INF" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\JSPWebMarket\src\bundle" />
+      <recent name="D:\dev\JSPWebMarket\WebContent\resources" />
+      <recent name="D:\dev\JSPWebMarket\src\resourceBundle" />
       <recent name="D:\dev\JSPWebMarket\WebContent\WEB-INF" />
       <recent name="D:\dev\JSPWebMarket\WebContent\pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\JSPWebMarket\WebContent\pages" />
+      <recent name="D:\dev\JSPWebMarket\WebContent\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -62,13 +108,13 @@
   </component>
   <component name="RunManager">
     <configuration name="JSPWebMarket" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
-      <option name="DOC_BASE" value="D:\dev\JSPWebMarket\WebContent\pages" />
+      <option name="DOC_BASE" value="D:\dev\JSPWebMarket\WebContent" />
       <option name="DOC_MODULE_ROOT" value="" />
-      <option name="CONTEXT_PATH" value="/JSPWebMarket" />
+      <option name="CONTEXT_PATH" value="/" />
       <option name="TOMCAT_PORT" value="8989" />
       <option name="AJP_PORT" value="8009" />
       <option name="ADMIN_PORT" value="8005" />
-      <option name="VM_OPTIONS" value="" />
+      <option name="VM_OPTIONS" value="-Dfile.encoding=UTF-8" />
       <option name="PASS_PARENT_ENV_OPTIONS" value="true" />
       <option name="CLASS_NAME" value="" />
       <option name="DEBUG" value="" />
@@ -100,8 +146,43 @@
       <workItem from="1579342108728" duration="2062000" />
       <workItem from="1579344198521" duration="3628000" />
       <workItem from="1579348135496" duration="1841000" />
-      <workItem from="1579349994904" duration="392000" />
+      <workItem from="1579349994904" duration="1050000" />
+      <workItem from="1582337560028" duration="9717000" />
+      <workItem from="1582352611801" duration="4090000" />
+      <workItem from="1582952415421" duration="6652000" />
+      <workItem from="1583576031411" duration="9907000" />
+      <workItem from="1584886433561" duration="12079000" />
+      <workItem from="1585754100524" duration="15622000" />
+      <workItem from="1586434930642" duration="15103000" />
+      <workItem from="1586915903148" duration="12618000" />
+      <workItem from="1586952211102" duration="5820000" />
+      <workItem from="1587049441042" duration="2234000" />
+      <workItem from="1587202720176" duration="5560000" />
+      <workItem from="1587476463360" duration="1215000" />
+      <workItem from="1588997413770" duration="549000" />
     </task>
+    <task id="LOCAL-00001" summary="JSP Web market intellij project 로 셋팅 완료.">
+      <created>1579350434275</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579350434275</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1장 시큐리티까지">
+      <created>1585299873488</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585299873488</updated>
+    </task>
+    <task id="LOCAL-00003" summary="11장 시큐리티까지">
+      <created>1585299947809</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585299947809</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,5 +200,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JSP Web market intellij project 로 셋팅 완료." />
+    <MESSAGE value="1장 시큐리티까지" />
+    <MESSAGE value="11장 시큐리티까지" />
+    <option name="LAST_COMMIT_MESSAGE" value="11장 시큐리티까지" />
   </component>
 </project>

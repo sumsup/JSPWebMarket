@@ -4,7 +4,6 @@
       <root url="jar://$PROJECT_DIR$/../tomcat/apache-tomcat-9.0.11/lib/el-api.jar!/" />
       <root url="jar://$PROJECT_DIR$/../tomcat/apache-tomcat-9.0.11/lib/jasper-el.jar!/" />
       <root url="jar://$PROJECT_DIR$/../tomcat/apache-tomcat-9.0.11/lib/jasper.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../tomcat/apache-tomcat-9.0.11/lib/jaspic-api.jar!/" />
       <root url="jar://$PROJECT_DIR$/../tomcat/apache-tomcat-9.0.11/lib/jsp-api.jar!/" />
       <root url="jar://$PROJECT_DIR$/../tomcat/apache-tomcat-9.0.11/lib/servlet-api.jar!/" />
     </CLASSES>

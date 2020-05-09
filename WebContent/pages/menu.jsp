@@ -7,6 +7,7 @@
 			<a class="navbar-brand" href="welcome.jsp">Home</a>
 			<a class="navbar-brand" href="products.jsp">상품목록</a>
 			<a class="navbar-brand" href="addProduct.jsp">상품등록</a>
+			<a class="navbar-brand" href="cart.jsp">장바구니</a>
 		</div>
 	</div>
 </nav>
